@@ -1,5 +1,6 @@
-package tasks.models;
+package tasks.models; // Ruta de la clase
 
+// Clase - Molde
 public class Task {
 
     // Propiedades - Atributos
@@ -8,7 +9,6 @@ public class Task {
     private boolean status;
 
     // Constructores - Sobrecarga, porque son varios
-
     public Task(){} // forma #1 vacio
 
     public Task(String name, String description, boolean status){ // forma #2 con parametros
